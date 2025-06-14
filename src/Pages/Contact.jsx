@@ -14,7 +14,7 @@ const socialLinks = [
   },
   {
     id: 2,
-    link: "https://www.linkedin.com/in/sumitpradhan01/",
+    link: "https://www.github.com/Pradhansumit",
     logo: <GitHubLogoIcon width={50} height={50} />,
   },
   {
