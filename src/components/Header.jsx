@@ -9,8 +9,8 @@ const menuItems = [
   },
   {
     id: 2,
-    title: "Writing",
-    link: "/writing",
+    title: "Blog",
+    link: "/blog",
   },
   { id: 3, title: "Contact", link: "/contact" },
 ];

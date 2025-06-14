@@ -7,3 +7,7 @@
 .bg-zinc-850 {
   background-color: #1d1d20;
 }
+
+::selection {
+  background: oklch(55.3% 0.195 38.402)
+}

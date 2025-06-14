@@ -31,7 +31,7 @@ const socialLinks = [
 
 const Contact = () => {
   return (
-    <div className="min-h-[calc(100vh-21vh)] flex items-center justify-center">
+    <div className="min-h-[calc(100vh-27vh)] flex items-center justify-center">
       <div className="grid grid-cols-2 grid-rows-2 w-40 h-40  gap-24 place-items-center">
         {socialLinks.map((item) => (
           <Link to={item.link} key={item.id} target="_blank">
