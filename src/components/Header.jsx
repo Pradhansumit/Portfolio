@@ -1,6 +1,7 @@
 import { Link } from "react-router";
 
 const menuItems = [
+  { id: 4, title: "About", link: "/about" },
   {
     id: 1,
     title: "Projects",
