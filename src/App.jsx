@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="bg-zinc-850 min-h-screen">
       <Header></Header>
-      <main className="max-w-xl mx-auto text-white px-4 md:px-0">
+      <main className="max-w-3xl mx-auto text-white px-4 md:px-0">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
