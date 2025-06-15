@@ -7,7 +7,9 @@ const GithubProjects = () => {
     fetch("https://api.github.com/users/Pradhansumit/repos")
       .then((res) => res.json())
       .then((data) => {
-        const filtered = data.filter((repo) => !repo.fork);
+        const filtered = data.filter(
+          (repo) => !repo.fork && repo.name !== "Pradhansumit",
+        );
         setRepos(filtered);
       });
   }, []);
