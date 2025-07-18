@@ -34,7 +34,12 @@ const Contact = () => {
     <div className="min-h-[calc(100vh-27vh)] flex items-center justify-center">
       <div className="grid grid-cols-2 grid-rows-2 w-40 h-40  gap-24 place-items-center">
         {socialLinks.map((item) => (
-          <Link to={item.link} key={item.id} target="_blank">
+          <Link
+            to={item.link}
+            key={item.id}
+            target="_blank"
+            aria-label={`Visit Sumit Pradhan's ${item.link.split(".")[1]} profile`}
+          >
             <div className="cursor-pointer bg-zinc-800 p-8 rounded-xl transition-transform duration-300 hover:scale-110">
               {item.logo}
             </div>
